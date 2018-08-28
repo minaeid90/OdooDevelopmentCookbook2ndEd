@@ -6,7 +6,7 @@ class SomeModel(models.Model):
 
     @api.multi
     def create_company(self):
-        today_str = fields.Date.contex_today()
+        today_str = fields.Date.context_today()
         val1 = {'name': 'Eric Idel',
                 'email': 'eric.idle@example.com',
                 'date': today_str,
